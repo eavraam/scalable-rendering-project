@@ -47,6 +47,6 @@ Extra: Used an octree to generate all simplified models simultaneously.
 Extra: Also implemented an optimization to the visibility precomputation (Supercover Bresenham).
 
 ## Application output
-Image based lighting using global values|
+Overview of the scene using simplified models|
 :-------------------------:|
 ![](extras/info/grid_settings.png)|
