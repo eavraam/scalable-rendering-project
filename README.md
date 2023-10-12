@@ -42,9 +42,9 @@ To run:
 - Created an ImGui for easy parameter configuration and method selection.
 - Rendered a "complex" museum floor-wall plan, with 10 rooms full of meshes (+ central area), via a .txt translation.
 - Computed simplified versions of the loaded model using vertex clustering on a regular grid, using a mean representative.
-Extra: Used an octree to generate all simplified models simultaneously.
+**Extra**: Used an octree to generate all simplified models simultaneously.
 - Created a 2nd application (Visibility) to precompute cell-to-cell visibility using random visibility sampling (Simplified Bresenham).
-Extra: Also implemented an optimization to the visibility precomputation (Supercover Bresenham).
+**Extra**: Also implemented an optimization to the visibility precomputation (Supercover Bresenham).
 
 ## Application output
 Overview of the scene using simplified models|
