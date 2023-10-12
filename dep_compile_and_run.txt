@@ -1,0 +1,21 @@
+﻿Dependencies:
+  - Use in ubuntu Linux
+  - Eigen3 (sudo apt install libeigen3-dev)
+
+Compile:
+  - Goto ./BaseCode (the folder containing CMakeLists.txt)
+  - Open folder in Terminal (~/(user path)/BaseCode)
+  - Execute the following commands:
+    - mkdir build  (Create build folder)
+    - cd build     (Goto build folder)
+    - cmake ..     (Build the applications)
+    - make         (Create 2 executables: BaseCode, Visibility)
+
+Run:
+  - First, run the Visibility executable (inside ./build type: ./Visibility)
+  - This will create 2 visibility .txt files inside ../../extras/grid folder
+  - Then, run the BaseCode executable (inside ./build type: ./BaseCode)
+  - Wait a minute, it will need to create some model Levels-of-Detail (LODs) first
+  - The created LODs will be stored in the same folder as the models (../../extras/models)
+
+Enjoy!

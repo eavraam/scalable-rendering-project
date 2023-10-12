@@ -1,0 +1,6 @@
+0 - blank space
+1 - floor
+2 - wall
+3 - bunny
+4 - moai
+5 - dragon
